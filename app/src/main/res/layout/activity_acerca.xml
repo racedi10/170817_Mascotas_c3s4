@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.com.oexl.petagram.Acerca">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:id="@+id/bar2"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="@dimen/elevacion_actibar"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/Theme.AppCompat.Light"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acerca de..."
+            android:textSize="@dimen/titulo"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/area_biografía"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/bar2"
+        >
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/avatar_rulo"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:id="@+id/nombreDesarrollador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/desarrolador"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:layout_margin="10dp"
+            android:textSize="@dimen/titulo"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:id="@+id/puesto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/texPuesto"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:layout_margin="10dp"
+            android:textSize="@dimen/abc_text_size_subtitle_material_toolbar"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:elevation="@dimen/elevacion_actibar"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/Theme.AppCompat.Light"
+
+    >
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="top|start"
+        android:layout_margin="20dp"
+        android:src="@drawable/dog_paw"
+        android:id="@+id/icoDog"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:id="@+id/textTitulo"
+        android:text="@string/texto_titulo"
+        android:textSize="@dimen/titulo"
+        android:layout_marginLeft="@dimen/margenIzquierdo"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <ImageView
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_gravity="top|end"
+        android:id="@+id/icoStar"
+        android:src="@drawable/icons8_hotel_48"
+        android:layout_margin="20dp"
+        android:layout_marginRight="10dp"
+        android:onClick="presionoBoton"
+        android:clickable="true"
+        />
+</android.support.v7.widget.Toolbar>
