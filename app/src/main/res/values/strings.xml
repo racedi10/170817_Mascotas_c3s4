@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="texto_boton_click">Click</string>
+    <string name="texto_titulo">Petagram</string>
+    <string name="mensaje">Guardado :)</string>
+    <string name="texto_accion">Acción</string>
+    <string name="numero">5</string>
+    <string-array name="razas">
+        <item>Husky</item>
+        <item>Golden</item>
+        <item>Labrador</item>
+        <item>Coli</item>
+        <item>BullDog</item>
+    </string-array>
+    <string name="nombre">Nombre Raza</string>
+    <string name="descripcion_tarjeta">Esta es la versión en la que se incluyó Material Design Android Lollipop</string>
+    <string name="opContacto">Contacto</string>
+    <string name="opAcerca">Acerca de...</string>
+
+    <string name="nombreContacto">Nombre</string>
+    <string name="texto_correo">Correo</string>
+    <string name="comentarios">Comentarios</string>
+    <string name="enviar">Enviar</string>
+
+    <string name="desarrolador">UX Raúl Cedillo</string>
+    <string name="texPuesto">Coordinador Multimedia DC U-learning</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
